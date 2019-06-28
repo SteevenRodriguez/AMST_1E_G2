@@ -33,7 +33,7 @@
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"
+        android:text="Contraseña"
         android:textSize="30dp"/>
 
     <EditText
@@ -41,7 +41,7 @@
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese su password"
+        android:hint="Ingrese su contraseña"
         android:inputType="textPassword"
         android:gravity="center"/>
 

@@ -46,7 +46,7 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
-                System.exit(1);
+                System.exit(0);
             }
         });
 
