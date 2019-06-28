@@ -51,9 +51,9 @@ public class TemperatureActivity extends AppCompatActivity {
                 TextView temp = findViewById(R.id.temperature);
                 TextView recorrido = findViewById(R.id.recorrido);
                 try {
-                    v.setText(response.getString("fecha_registro"));
-                    temp.setText(String.valueOf(response.getDouble("temperatura")));
-                    recorrido.setText(String.valueOf(response.getInt("recorrido")));
+                    v.setText("Fecha: "+response.getString("fecha_registro"));
+                    temp.setText("Temperatura: "+String.valueOf(response.getDouble("temperatura")));
+                    recorrido.setText("Recorrido: "+String.valueOf(response.getInt("recorrido")));
 
 
                 } catch (JSONException e) {
