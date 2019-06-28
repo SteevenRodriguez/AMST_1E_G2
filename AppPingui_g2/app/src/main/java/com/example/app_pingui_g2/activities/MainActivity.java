@@ -1,4 +1,4 @@
-package com.example.app_pingui_g2;
+package com.example.app_pingui_g2.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -11,9 +11,9 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.app_pingui_g2.R;
 
 import org.json.JSONObject;
 
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                         System.out.println(response);
                         try{
                             token = response.getString("token");
-                            Intent intent = new Intent(MainActivity.this,MenuActivity.class);
+                            Intent intent = new Intent(MainActivity.this, MenuActivity.class);
                             intent.putExtra("token",token);
                             startActivity(intent);
 

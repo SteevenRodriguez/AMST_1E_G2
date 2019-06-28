@@ -11,10 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecorridoActivity"></activity>
-        <activity android:name=".TemperatureActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.RecorridoActivity"></activity>
+        <activity android:name=".activities.TemperatureActivity" />
+        <activity android:name=".activities.MenuActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
