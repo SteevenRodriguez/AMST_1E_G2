@@ -74,7 +74,7 @@ public class TemperatureActivity extends AppCompatActivity {
                     try {
 
                         id.setText("ID: "+String.valueOf(response.getInt("id")));
-                        v.setText("Fecha: "+response.getString("fecha_registro").substring(0,11));
+                        v.setText("Fecha: "+response.getString("fecha_registro").substring(0,10));
                         temp.setText("Temperatura: "+String.valueOf(response.getDouble("temperatura")));
                         recorrido.setText("Recorrido: "+String.valueOf(response.getInt("recorrido")));
                         linearLayout.addView(id);
